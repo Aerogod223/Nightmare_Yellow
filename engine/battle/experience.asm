@@ -288,8 +288,6 @@ GainExperience:
 	call CallBattleCore
 	ld hl, ApplyBurnAndParalysisPenaltiesToPlayer
 	call CallBattleCore
-	ld hl, ApplyBadgeStatBoosts
-	call CallBattleCore
 	ld hl, DrawPlayerHUDAndHPBar
 	call CallBattleCore
 	ld hl, PrintEmptyString

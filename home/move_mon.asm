@@ -68,7 +68,7 @@ CalcStat::
 	sla c
 	ld a, d
 	and a
-	jr z, .statExpDone  ; consider stat exp?
+	jr .statExpDone  ; consider stat exp?
 	add hl, bc          ; skip to corresponding stat exp value
 .statExpLoop            ; calculates ceil(Sqrt(stat exp)) in b
 	xor a

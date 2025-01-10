@@ -531,8 +531,6 @@ UpdateStatDone:
 .applyBadgeBoostsAndStatusPenalties
 	ldh a, [hWhoseTurn]
 	and a
-	call z, ApplyBadgeStatBoosts ; whenever the player uses a stat-up move, badge boosts get reapplied again to every stat,
-	                             ; even to those not affected by the stat-up move (will be boosted further)
 	ld hl, MonsStatsRoseText
 	call PrintText
 
@@ -715,8 +713,6 @@ UpdateLoweredStatDone:
 .ApplyBadgeBoostsAndStatusPenalties
 	ldh a, [hWhoseTurn]
 	and a
-	call nz, ApplyBadgeStatBoosts ; whenever the player uses a stat-down move, badge boosts get reapplied again to every stat,
-	                              ; even to those not affected by the stat-up move (will be boosted further)
 	ld hl, MonsStatsFellText
 	call PrintText
 
