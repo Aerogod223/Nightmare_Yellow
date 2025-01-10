@@ -10,9 +10,10 @@ SpecialTrainerMoves:
 
 	db BROCK, 1
 	db 1, 3, ROCK_THROW
-	db 2, 1, CONSTRICT
-	db 2, 3, BIDE
-	db 2, 4, BIND
+	db 2, 4, DIG
+	db 3, 4, MEGA_DRAIN
+	db 4, 1, CONSTRICT
+	db 4, 4, BIND
 	db 0
 
 	db BROCK, 2
@@ -27,7 +28,13 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 2, 1, TAIL_WHIP
+	db 1, 1, BUBBLEBEAM
+	db 1, 2, SEISMIC_TOSS
+	db 1, 3, DIG
+	db 2, 2, REST
+	db 3, 1, FLY
+	db 3, 3, BUBBLEBEAM
+	db 4, 4, PSYWAVE
 	db 0
 
 	db MISTY, 2
