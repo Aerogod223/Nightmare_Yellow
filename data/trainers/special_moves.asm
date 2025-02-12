@@ -8,6 +8,23 @@ SpecialTrainerMoves:
 	db 1, 4, FISSURE
 	db 0
 
+	db COOLTRAINERM, 5
+	db 1, 2, SURF
+	db 1, 3, THUNDER_WAVE
+	db 2, 1, THUNDER
+	db 2, 4, THUNDER_WAVE
+	db 3, 1, HYPER_BEAM
+	db 3, 3, WING_ATTACK
+	db 4, 2, AMNESIA
+	db 4, 3, PSYCHIC_M
+	db 5, 1, PSYCHIC_M
+	db 5, 2, REFLECT
+	db 5, 3, REST
+	db 5, 4, THUNDER_WAVE
+	db 6, 1, THUNDER_WAVE
+	db 6, 2, PSYCHIC_M
+	db 6, 3, BLIZZARD
+
 	db BROCK, 1
 	db 1, 3, ROCK_THROW
 	db 2, 4, DIG
