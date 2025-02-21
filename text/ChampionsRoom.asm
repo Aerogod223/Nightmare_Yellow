@@ -16,8 +16,8 @@ _ChampionsRoomRivalIntroText::
 
 	para "Not only that, I"
 	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	cont "and caught the"
+	cont "strongest #MON!"
 
 	para "And now!"
 

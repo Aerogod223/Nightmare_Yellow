@@ -8,22 +8,19 @@ SpecialTrainerMoves:
 	db 1, 4, FISSURE
 	db 0
 
-	db COOLTRAINERM, 5
-	db 1, 2, SURF
-	db 1, 3, THUNDER_WAVE
-	db 2, 1, THUNDER
-	db 2, 4, THUNDER_WAVE
-	db 3, 1, HYPER_BEAM
-	db 3, 3, WING_ATTACK
-	db 4, 2, AMNESIA
-	db 4, 3, PSYCHIC_M
-	db 5, 1, PSYCHIC_M
-	db 5, 2, REFLECT
-	db 5, 3, REST
-	db 5, 4, THUNDER_WAVE
-	db 6, 1, THUNDER_WAVE
-	db 6, 2, PSYCHIC_M
-	db 6, 3, BLIZZARD
+	db CooltrainerM, 5 ; db 69, ELECTABUZZ, SNORLAX, EXEGGUTOR, SCYTHER, SLOWBRO, PORYGON, 0
+	db 1, 1, THUNDER_WAVE
+	db 1, 2, PSYCHIC_M
+	db 1, 3, SUBMISSION
+	db 2, 1, EARTHQUAKE
+	db 2, 2, SELFDESTRUCT
+	db 2, 3, SURF
+	db 3, 1, SOFTBOILED
+	db 4, 3, WING_ATTACK
+	db 5, 1, REST
+	db 6, 1, BLIZZARD
+	db 6, 2, THUNDER
+	db 6, 3, THUNDER_WAVE
 
 	db BROCK, 1
 	db 1, 3, ROCK_THROW
@@ -208,7 +205,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 1  ; 	db $FF, 55, RAPIDASH, 56, ELECTABUZZ, 56, CHARIZARD, 55, CHANSEY, 56, ARCANINE, 58, MAGMAR, 0
-	db 1, 2, DOUBLE_EDGE	
+	db 1, 2, DOUBLE_EDGE
 	db 2, 1, THUNDER_WAVE
 	db 2, 2, FIRE_PUNCH
 	db 2, 3, PSYCHIC_M
@@ -314,7 +311,7 @@ SpecialTrainerMoves:
 	db 4, 3, BLIZZARD
 	db 4, 4, DOUBLE_EDGE
 	db 5, 1, BODY_SLAM
-	db 4, 3, EXPLOSION
+	db 5, 3, EXPLOSION
 	db 6, 1, CUT
 	db 6, 2, BUBBLEBEAM
 	db 6, 3, DOUBLE_TEAM
@@ -340,7 +337,6 @@ SpecialTrainerMoves:
 	db 0
 
 	db LORELEI, 1 ; 	db $FF, 65, CLOYSTER, 65, WIGGLYTUFF, 65, JYNX, 65, ARTICUNO, 65, SLOWBRO, 66, LAPRAS, 0
-	db 1, 1, EARTHQUAKE
 	db 1, 2, EXPLOSION
 	db 1, 3, TOXIC
 	db 2, 4, FIRE_BLAST
@@ -376,7 +372,7 @@ SpecialTrainerMoves:
 	db 3, 3, LEECH_LIFE
 	db 3, 4, SUBSTITUTE
 	db 4, 2, THUNDER_WAVE
-	db 4, 4, DOUBLE_TEAM
+	db 4, 4, SUBSTITUTE
 	db 5, 1, SWORDS_DANCE
 	db 5, 2, ROCK_SLIDE
 	db 5, 3, HYPER_BEAM
@@ -403,7 +399,7 @@ SpecialTrainerMoves:
 	db 5, 4, EARTHQUAKE
 	db 6, 1, THUNDER
 	db 6, 2, BLIZZARD
-	db 6, 4, EARTHQUAKE
+	db 6, 3, FIRE_BLAST
 	db 0
 
 	db RIVAL1, 3 ; Route 22 
@@ -544,14 +540,13 @@ SpecialTrainerMoves:
 	db 1, 1, EARTHQUAKE
 	db 1, 2, ROCK_SLIDE
 	db 2, 1, TOXIC
-	db 2, 2, HYPER_BEAM
 	db 2, 4, DOUBLE_TEAM
-	db 3, 1, PSYWAVE
-	db 3, 2, SOLARBEAM
-	db 4, 1, MEGA_DRAIN
-	db 5, 1, DOUBLE_TEAM
-	db 6, 1, BLIZZARD
-	db 6, 2, REFLECT
+	db 3, 4, STUN_SPORE
+	db 4, 2, BLIZZARD
+	db 5, 3, SLASH
+	db 5, 4, EARTHQUAKE
+	db 6, 1, SOLAR_BEAM
+	db 6, 2, FIRE_BLAST
 	db 0
 
 	db PROF_OAK, 1 ; 69, TAUROS, 70, CHARIZARD, 70, VENUSAUR, 70, BLASTOISE, 69, SNORLAX, 70, NIDOKING, 0

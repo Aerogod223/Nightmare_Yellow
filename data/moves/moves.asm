@@ -60,7 +60,7 @@ Moves:
 	move SING,         SLEEP_EFFECT,                 0, BIRD,          55, 15
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, BIRD,          70, 20
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,       100, 20
-	move DISABLE,      DISABLE_EFFECT,               0, BIRD,          75, 20
+	move DISABLE,      DISABLE_EFFECT,               0, BIRD,          90, 20
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    65, POISON,       100, 30
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 25
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
@@ -90,7 +90,7 @@ Moves:
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,        90, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         75, 30
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         75, 15
-	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   90, GRASS,        100, 20
+	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   110, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN1_EFFECT,           0, BUG,           95, 40
 	move DRAGON_RAGE,  SPECIAL_DAMAGE_EFFECT,        1, DRAGON,       100, 20
 	move FIRE_SPIN,    TRAPPING_EFFECT,             15, FIRE,          85, 15
